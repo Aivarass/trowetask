@@ -4,6 +4,7 @@ Summary:
 Sharing a quick framework that I've created for this task. All in all this task took me about an hour. I am using Java8, Junit, and Cucumber. 
 Test runners: Junit / Cucumber Junit.
 In total, I've added 32 tests (19 JUnit tests and 13 cucumber tests).
+NOTE: this is 100% my solution, nothing was copy pasted from the internet. 
 
 How to get started:
 1. Clone this repository using Git
