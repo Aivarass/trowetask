@@ -51,6 +51,34 @@ public class MiscTests {
     }
 
     @Test
+    public void testFullStop(){
+        WordHandler wordHandler = new WordHandlerImp();
+        Assert.assertEquals(wordHandler.findLongestWord("word."), new WordObject("word", 4));
+        Assert.assertEquals(wordHandler.findShortestWord("word."), new WordObject("word", 4));
+    }
+
+    @Test
+    public void testComma(){
+        WordHandler wordHandler = new WordHandlerImp();
+        Assert.assertEquals(wordHandler.findLongestWord("word,"), new WordObject("word", 4));
+        Assert.assertEquals(wordHandler.findShortestWord("word,"), new WordObject("word", 4));
+    }
+
+    @Test
+    public void testExclamation(){
+        WordHandler wordHandler = new WordHandlerImp();
+        Assert.assertEquals(wordHandler.findLongestWord("word!"), new WordObject("word", 4));
+        Assert.assertEquals(wordHandler.findShortestWord("word!"), new WordObject("word", 4));
+    }
+
+    @Test
+    public void testQuestion(){
+        WordHandler wordHandler = new WordHandlerImp();
+        Assert.assertEquals(wordHandler.findLongestWord("word?"), new WordObject("word", 4));
+        Assert.assertEquals(wordHandler.findShortestWord("word?"), new WordObject("word", 4));
+    }
+
+    @Test
     public void testVeryLongSentence(){
         WordHandler wordHandler = new WordHandlerImp();
         Assert.assertEquals(new WordObject("involuntarily",13),wordHandler.findLongestWord("As he crossed toward the pharmacy at the corner he involuntarily turned his head because of a burst of light that had ricocheted from his temple, and saw, with that quick smile with which we greet a rainbow or a rose, a blindingly white parallelogram of sky being unloaded from the van—a dresser with mirrors across which, as across a cinema screen, passed a flawlessly clear reflection of boughs sliding and swaying not arboreally, but with a human vacillation, produced by the nature of those who were carrying this sky, these boughs, this gliding façade."));

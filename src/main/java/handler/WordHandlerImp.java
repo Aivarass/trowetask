@@ -68,7 +68,7 @@ public class WordHandlerImp implements WordHandler {
     @Override
     public String[] getArrayFromSentence(String sentence) {
         if(sentence != null)
-            return sentence.replaceAll("\\.","").replaceAll(",","").split(" ");
+            return sentence.replaceAll("\\.","").replaceAll(",","").replaceAll("\\?","").replaceAll("!","").replaceAll(":","").split(" ");
         return null;
     }
 }

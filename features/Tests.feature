@@ -18,9 +18,9 @@
         | A kangaroo is really just a rabbit on steroids.                                                                                                           | kangaroo     | A           |
         | He would only survive if he kept the fire going and he could hear thunder in the distance.                                                                | distance     | He          |
         | He told us a very exciting adventure story.                                                                                                               | adventure    | a           |
-        | My dentist tells me that chewing bricks is very bad for your teeth.                                                                                       | dentist      | My          |
+        | My dentist tells me that chewing bricks is very bad for your teeth?                                                                                       | dentist      | My          |
         | She borrowed the book from him many years ago and hasn't yet returned it.                                                                                 | borrowed     | it          |
-        | Behind the window was a reflection that only instilled fear.                                                                                              | reflection   | a           |
+        | Behind the window was a reflection that only instilled fear!                                                                                              | reflection   | a           |
         | As the rental car rolled to a stop on the dark road, her fear increased by the moment.                                                                    | increased    | a           |
         | I may struggle with geography, but I'm sure I'm somewhere around here.                                                                                    | geography    | I           |
         | Dolores wouldn't have eaten the meal if she had known what it actually was.                                                                               | wouldn't     | if          |
